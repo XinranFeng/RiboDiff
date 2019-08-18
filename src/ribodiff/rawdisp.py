@@ -9,6 +9,7 @@ import statsmodels.api as sm
 from scipy.optimize import minimize
 from scipy.optimize import minimize_scalar
 import adjlik as al
+global yhat
 
 def disper_raw(data, opts):
 
